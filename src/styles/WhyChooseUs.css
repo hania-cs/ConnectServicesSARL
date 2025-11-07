@@ -1,0 +1,81 @@
+.why-choose {
+  /* <CHANGE> Keeping dark background but updated accent colors */
+  background: var(--dark);
+  position: relative;
+  overflow: hidden;
+}
+
+/* <CHANGE> Updated grid pattern with new blue */
+.why-choose::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(27, 117, 188, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 117, 188, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  z-index: 0;
+}
+
+.why-choose::after {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  /* <CHANGE> Updated radial gradient to new blue */
+  background: radial-gradient(circle, rgba(27, 117, 188, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.why-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.why-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--primary);
+  transform: translateY(-10px);
+  /* <CHANGE> Updated shadow color to new blue */
+  box-shadow: 0 20px 60px rgba(27, 117, 188, 0.2);
+}
+.why-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.why-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.why-card p {
+  font-size: 1rem;
+  color: var(--gray);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}

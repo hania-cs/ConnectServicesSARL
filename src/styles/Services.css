@@ -1,0 +1,188 @@
+.services {
+  /* <CHANGE> Updated gradient to use new blue color scheme */
+  background: linear-gradient(135deg, #E3F2FD 0%, #F0F7FD 50%, #E8F4F8 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* <CHANGE> Add decorative background elements */
+.services::before {
+  content: '';
+  position: absolute;
+  top: -300px;
+  left: -200px;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(27, 117, 188, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.services::after {
+  content: '';
+  position: absolute;
+  bottom: -200px;
+  right: -300px;
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(33, 150, 243, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.services .container {
+  position: relative;
+  z-index: 1;
+}
+
+.services .section-title {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+}
+
+.services .section-title h2 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-bottom: var(--spacing-md);
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+  margin-bottom: var(--spacing-xl);
+}
+
+.bento-item {
+  background: var(--white);
+  border-radius: 30px;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: 2px solid transparent;
+  /* <CHANGE> Add shadow for depth */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.bento-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* <CHANGE> Updated gradient to new blue scheme */
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent-bright) 100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 0;
+}
+
+.bento-item:hover::before {
+  opacity: 0.08;
+}
+.services-cta1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* optional for vertical centering */
+}
+
+.bento-item:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary);
+  /* <CHANGE> Updated shadow color to match new blue */
+  box-shadow: 0 30px 80px rgba(27, 117, 188, 0.25);
+}
+/* ... existing code ... */
+.bento-item > * {
+  position: relative;
+  z-index: 1;
+}
+
+.bento-large {
+  grid-column: span 8;
+}
+
+.bento-medium {
+  grid-column: span 4;
+}
+
+.bento-small {
+  grid-column: span 6;
+}
+
+.service-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-item:hover .service-icon {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.bento-item h3 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.bento-item p {
+  font-size: 1.125rem;
+  color: var(--gray);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.service-features {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.service-features li {
+  padding: 0.75rem 0;
+  color: var(--dark-gray);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.service-features li::before {
+  content: '→';
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--dark);
+  font-weight: 600;
+  text-decoration: none;
+  transition: gap 0.3s ease;
+}
+
+.service-link:hover {
+  gap: 1rem;
+  color: var(--primary);
+}
+
+.services-cta {
+  text-align: center;
+}
+
+@media (max-width: 968px) {
+  .bento-large,
+  .bento-medium,
+  .bento-small {
+    grid-column: span 12;
+  }
+
+  .bento-item {
+    padding: 2rem;
+  }
+}

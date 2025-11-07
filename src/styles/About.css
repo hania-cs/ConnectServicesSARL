@@ -1,0 +1,125 @@
+.about {
+  background: linear-gradient(180deg, var(--white) 0%, var(--bg-primary-subtle) 50%, var(--white) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(27, 117, 188, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.about::after {
+  content: '';
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(27, 117, 188, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.about .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* <CHANGE> Removed grid layout, now single column */
+.about-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content .section-title {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.about-content .section-title h2 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+.about-text {
+  font-size: 1.25rem;
+  color: var(--dark-gray);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.8;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* <CHANGE> Feature cards now displayed in a horizontal grid */
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: var(--spacing-xl);
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2.5rem 2rem;
+  background: var(--white);
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-10px);
+  background: var(--white);
+  box-shadow: 0 10px 40px rgba(27, 117, 188, 0.15);
+}
+
+.feature-number {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.feature-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--dark);
+}
+
+.feature-content p {
+  font-size: 1.05rem;
+  color: var(--gray);
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 968px) {
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    padding: 2rem 1.5rem;
+  }
+}
