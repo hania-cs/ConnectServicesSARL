@@ -1,8 +1,7 @@
 "use client"
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-
-import { useState } from "react"
-import "../styles/ContactPage.css"
+import { useState } from "react";
+import "../styles/ContactPage.css";
 
 function ContactPage() {
   const [formData, setFormData] = useState({
@@ -11,23 +10,24 @@ function ContactPage() {
     phone: "",
     service: "",
     message: "",
-  })
+  });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-    alert("Thank you for contacting us! We will get back to you soon.")
-  }
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    alert("Thank you for contacting us! We will get back to you soon.");
+  };
 
   return (
     <main className="contact-page">
+      {/* Hero Section */}
       <section className="about-hero contact-hero">
         <div className="container">
           <div className="hero-split">
@@ -99,7 +99,13 @@ function ContactPage() {
 
                   <div className="form-group">
                     <label htmlFor="service">Service Interested In</label>
-                    <select id="service" name="service" value={formData.service} onChange={handleChange} required>
+                    <select
+                      id="service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                      required
+                    >
                       <option value="">Select a service</option>
                       <option value="matensa">Matensa (Money Transfer)</option>
                       <option value="insurance">Insurance</option>
@@ -152,7 +158,7 @@ function ContactPage() {
                     <div className="method-icon">📞</div>
                     <div className="method-content">
                       <h4>Phone</h4>
-                      <a href="tel:+ 961 81 88 28 48">+ 961 81 88 28 48</a>
+                      <a href="tel:+96181882848">+961 81 88 28 48</a>
                     </div>
                   </div>
 
@@ -160,8 +166,8 @@ function ContactPage() {
                     <div className="method-icon">📱</div>
                     <div className="method-content">
                       <h4>WhatsApp</h4>
-                      <a href="https://wa.me/+ 961 81 88 28 48" target="_blank" rel="noopener noreferrer">
-                        + 961 81 88 28 48
+                      <a href="https://wa.me/96181882848" target="_blank" rel="noopener noreferrer">
+                        +961 81 88 28 48
                       </a>
                     </div>
                   </div>
@@ -174,7 +180,6 @@ function ContactPage() {
                         Dahr Alahmar,
                         <br />
                         Main Road
-
                       </p>
                     </div>
                   </div>
@@ -187,7 +192,6 @@ function ContactPage() {
                       <span>Monday - Saturday</span>
                       <span>9:00 AM - 5:00 PM</span>
                     </div>
-                  
                     <div className="hours-item">
                       <span>Sunday</span>
                       <span>Closed</span>
@@ -195,36 +199,38 @@ function ContactPage() {
                   </div>
                 </div>
 
-                <div className="social-links">
-                <a href="https://www.facebook.com/profile.php?id=61583161839622"
-        className="social-link facebook"
-        aria-label="Facebook"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Facebook size={24} />
-      </a>
+                {/* Social Links */}
+                <div className="social-links-container">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61583161839622"
+                    className="social-link"
+                    aria-label="Facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Facebook size={24} />
+                  </a>
 
-      <a
-        href="https://www.instagram.com/connect.services.sarl/"
-        className="social-link instagram"
-        aria-label="Instagram"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Instagram size={24} />
-      </a>
+                  <a
+                    href="https://www.instagram.com/connect.services.sarl/"
+                    className="social-link"
+                    aria-label="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Instagram size={24} />
+                  </a>
 
-      <a
-        href="https://www.linkedin.com/in/connectservicessarl"
-        className="social-link linkedin"
-        aria-label="LinkedIn"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Linkedin size={24} />
-      </a>
-    </div>
+                  <a
+                    href="https://www.linkedin.com/in/connectservicessarl"
+                    className="social-link"
+                    aria-label="LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Linkedin size={24} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -276,13 +282,11 @@ function ContactPage() {
               <h3>Can I use multiple services?</h3>
               <p>Many clients benefit from our integrated approach. We offer package deals for multiple services.</p>
             </div>
-
-           
           </div>
         </div>
       </section>
     </main>
-  )
+  );
 }
 
-export default ContactPage
+export default ContactPage;
