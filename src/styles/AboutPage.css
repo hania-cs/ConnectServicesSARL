@@ -142,26 +142,20 @@
   border: 2px solid transparent;
 }
 
-.stat-box:hover {
-  transform: translateY(-10px);
-  border-color: var(--primary);
-  box-shadow: 0 20px 60px rgba(27, 117, 188, 0.15);
-}
-
 .stat-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .stat-num {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
   font-weight: 700;
   font-family: var(--font-display);
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
@@ -565,11 +559,28 @@
 }
 
 @media (max-width: 576px) {
+  /* Make stat boxes single column on mobile */
+  .story-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
   .stat-box {
     padding: 1.5rem;
   }
 
   .stat-num {
-    font-size: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+
+  /* Adjust stat text for better mobile readability */
+  .stat-text {
+    font-size: 0.9rem;
+  }
+
+  /* Reduce story content font size on mobile */
+  .story-content p {
+    font-size: 1rem;
   }
 }
