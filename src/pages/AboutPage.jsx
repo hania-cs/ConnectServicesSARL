@@ -247,7 +247,7 @@ of the International Union of Translators and the Lebanese Translators Syndicate
                 <img src="/professional-headshot-businessman-director.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Michael Chen</h3>
+                <h3>Nidaa Safi</h3>
                 <p className="team-role">Travel Services Director</p>
                 <p className="team-bio">
                   Expert in global travel coordination with partnerships spanning 50+ countries worldwide.
@@ -260,7 +260,7 @@ of the International Union of Translators and the Lebanese Translators Syndicate
                 <img src="/professional-headshot-businesswoman-specialist.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Emma Thompson</h3>
+                <h3>Hania Seifeldeen</h3>
                 <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
                   Providing comprehensive insurance solutions tailored to individual and business needs.
@@ -273,7 +273,7 @@ of the International Union of Translators and the Lebanese Translators Syndicate
                 <img src="/professional-headshot-businessman-finance.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>David Kim</h3>
+                <h3>Yolla Dergham</h3>
                 <p className="team-role">Financial Services Manager</p>
                 <p className="team-bio">
                   Managing secure money transfer operations and ensuring competitive rates for all clients.
