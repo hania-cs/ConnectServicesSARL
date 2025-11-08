@@ -216,20 +216,28 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               <div className="team-info">
                 <h3>Nader Seifeldeen</h3>
                 <p className="team-role">Chief Executive Officer</p>
+                <p className="team-bio">
+                  Ensuring seamless service delivery across all departments with a focus on efficiency and client
+                  satisfaction.
+                </p>
                
               </div>
             </div>
 
             <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businesswoman-manager.jpg" alt="Team Member" />
+                <img src="/kholoud.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Sarah Martinez</h3>
-                <p className="team-role">Head of Operations</p>
+                <h3>Kholoud Naji</h3>
+                <p className="team-role">Sworn Translator</p>
                 <p className="team-bio">
-                  Ensuring seamless service delivery across all departments with a focus on efficiency and client
-                  satisfaction.
+                  Highly skilled sworn translator, educator, and linguist with over a decade of
+experience in translation, interpretation, and teaching. Expertise in legal,
+financial, and academic translation, with a strong track record of mentoring
+university students and delivering online translation training. Recognized member
+of the International Union of Translators and the Lebanese Translators Syndicate
+(No. 261).
                 </p>
               </div>
             </div>
