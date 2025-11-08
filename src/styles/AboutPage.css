@@ -450,19 +450,21 @@
 
 .team-image {
   width: 100%;
-  height: 320px;
+  height: 400px; /* Increased height to show full vertical image */
   overflow: hidden;
-  background: linear-gradient(135deg, rgba(27, 117, 188, 0.1) 0%, rgba(27, 117, 188, 0.05) 100%);
+  background: var(--off-white); /* Changed to solid background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Changed from cover to contain */
+  object-fit: cover; /* Using cover to fill both width and height */
+  object-position: center top; /* Position from center top to show face and desk */
   transition: transform 0.5s ease;
-  background-color: #f0f0f0; /* optional, to show empty space behind image */
 }
-
 
 .team-card:hover .team-image img {
   transform: scale(1.1);

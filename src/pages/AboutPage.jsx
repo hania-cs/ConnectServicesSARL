@@ -211,10 +211,10 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
           <div className="team-grid">
             <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-ceo-businessman.jpg" alt="Team Member" />
+                <img src="../images/Nader.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Nader Seifeldeen</h3>
+                <h3>Nader Seif Eldeen</h3>
                 <p className="team-role">Chief Executive Officer</p>
                 <p className="team-bio">
                   Ensuring seamless service delivery across all departments with a focus on efficiency and client
