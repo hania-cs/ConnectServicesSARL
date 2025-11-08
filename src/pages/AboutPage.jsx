@@ -17,7 +17,7 @@ function AboutPage() {
               </p>
             </div>
             <div className="hero-image">
-              <img src="../images/image.png" alt="Connect Services Team" />
+              <img src="../images/heroAbout.png" alt="Connect Services Team" />
             </div>
           </div>
         </div>
@@ -226,7 +226,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
 
             <div className="team-card">
               <div className="team-image">
-                <img src=".../images/kholoud.png" alt="Team Member" />
+                <img src="../images/kholoud.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Kholoud Naji</h3>
