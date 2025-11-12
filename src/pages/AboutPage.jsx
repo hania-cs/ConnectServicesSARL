@@ -211,7 +211,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
           <div className="team-grid">
             <div className="team-card">
               <div className="team-image">
-                <img src="../images/Nader.png" alt="Team Member" />
+                <img src="../images/nader.JPG" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Nader Seif Eldeen</h3>
@@ -232,12 +232,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Kholoud Naji</h3>
                 <p className="team-role">Sworn Translator</p>
                 <p className="team-bio">
-                  Highly skilled sworn translator, educator, and linguist with over a decade of
-experience in translation, interpretation, and teaching. Expertise in legal,
-financial, and academic translation, with a strong track record of mentoring
-university students and delivering online translation training. Recognized member
-of the International Union of Translators and the Lebanese Translators Syndicate
-(No. 261).
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, illum.  
                 </p>
               </div>
             </div>
@@ -257,7 +252,7 @@ of the International Union of Translators and the Lebanese Translators Syndicate
 
             <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businesswoman-specialist.jpg" alt="Team Member" />
+                <img src="../images/hania.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Hania Seifeldeen</h3>
@@ -286,7 +281,31 @@ of the International Union of Translators and the Lebanese Translators Syndicate
                 <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Sofia Rodriguez</h3>
+                <h3>Fidaa Safi</h3>
+                <p className="team-role">Translation Services Lead</p>
+                <p className="team-bio">
+                  Overseeing professional translation services in multiple languages with certified accuracy.
+                </p>
+              </div>
+            </div>
+              <div className="team-card">
+                <div className="team-image">
+                  <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+                </div>
+                <div className="team-info">
+                  <h3>Rami Dagher</h3>
+                  <p className="team-role">Translation Services Lead</p>
+                  <p className="team-bio">
+                    Overseeing professional translation services in multiple languages with certified accuracy.
+                  </p>
+                </div>
+            </div>
+              <div className="team-card">
+              <div className="team-image">
+                <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Ghaith Albeh</h3>
                 <p className="team-role">Translation Services Lead</p>
                 <p className="team-bio">
                   Overseeing professional translation services in multiple languages with certified accuracy.

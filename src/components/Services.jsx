@@ -47,7 +47,7 @@ function Services() {
           <div className="bento-item bento-medium">
             <div className="service-icon">🏠</div>
             <h3>Real Estate</h3>
-          <p>Fast, secure international transfers with competitive rates.</p>
+          <p>Property solutions and professional management services</p>
             <a href="/services" className="service-link">Learn more →</a>
           </div>
 
@@ -55,7 +55,7 @@ function Services() {
           <div className="bento-item bento-large">
             <div className="service-icon">📃</div>
             <h3>Registrations</h3>
-            <p>Fast, secure international transfers with competitive rates.</p>
+            <p>Legal and official registration services made simple.</p>
             <a href="/services" className="service-link">Learn more →</a>
           </div>
         </div>

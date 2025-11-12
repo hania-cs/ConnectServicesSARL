@@ -51,6 +51,19 @@ function ServicesPage() {
       subServices: ["All type of letters & books", "Embassy's documents", "Legal personal papers"],
     },
     {
+  id: "development",
+  icon: "💻",
+  title: "Web Development",
+  description: "Custom websites and web applications built for performance and scalability.",
+  color: "#1B75BC",
+  subServices: [
+    "Responsive website design",
+    "E-commerce development",
+    "Frontend & backend integration"
+  ]
+},
+
+    {
       id: "marketing",
       icon: "🎨",
       title: "Art & Marketing Agency",
@@ -159,7 +172,7 @@ function ServicesPage() {
                       </div>
                     ))}
                   </div>
-                  <a href="#contact" className="btn btn-primary">
+                  <a href="/contact" className="btn btn-primary">
                     Get Started
                   </a>
                 </div>
