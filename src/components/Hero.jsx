@@ -12,7 +12,7 @@ function Hero() {
                 <span className="highlight">All in One Place</span>
               </h1>
               <p className="subtitle">
-                Travel arrangements, insurance coverage, money transfers, professional translations, and more. Connect Services SARL brings it all together.
+                Travel arrangements, insurance coverage, money transfers, professional translations, web devlopment services, and many more. Connect Services SARL brings it all together.
               </p>
               
               <div className="hero-buttons">
