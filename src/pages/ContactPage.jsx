@@ -133,9 +133,12 @@ function ContactPage() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-full">
-                  Send Message
-                </button>
+                <a href="mailto:Marketing@connect-services.me">
+  <button type="button" className="btn btn-primary btn-full">
+    Send Message
+  </button>
+</a>
+
               </form>
             </div>
 
