@@ -1,7 +1,8 @@
 "use client"
-import { Facebook, Instagram, Linkedin } from "lucide-react";
-import { useState } from "react";
-import "../styles/ContactPage.css";
+
+import { useState } from "react"
+import { Facebook, Instagram, Linkedin } from "lucide-react"
+import "../styles/ContactPage.css"
 
 function ContactPage() {
   const [formData, setFormData] = useState({
@@ -10,20 +11,51 @@ function ContactPage() {
     phone: "",
     service: "",
     message: "",
-  });
+  })
+
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState(null)
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    });
-  };
+    })
+  }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Thank you for contacting us! We will get back to you soon.");
-  };
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Contact Form: ${formData.service || "General Inquiry"}`)
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+        `Email: ${formData.email}\n` +
+        `Phone: ${formData.phone}\n` +
+        `Service: ${formData.service}\n\n` +
+        `Message:\n${formData.message}`,
+    )
+
+    const mailtoLink = `mailto:Marketing@connect-services.me?subject=${subject}&body=${body}`
+    window.location.href = mailtoLink
+
+    // Reset form after a short delay
+    setTimeout(() => {
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: "",
+      })
+      setIsSubmitting(false)
+      setSubmitStatus("success")
+
+      // Clear status message after 3 seconds
+      setTimeout(() => setSubmitStatus(null), 3000)
+    }, 500)
+  }
 
   return (
     <main className="contact-page">
@@ -53,6 +85,21 @@ function ContactPage() {
                 <h2>Send Us a Message</h2>
                 <p>Fill out the form below and we'll respond within 24 hours</p>
               </div>
+
+              {submitStatus === "success" && (
+                <div
+                  className="success-message"
+                  style={{
+                    padding: "1rem",
+                    marginBottom: "1rem",
+                    backgroundColor: "#d4edda",
+                    color: "#155724",
+                    borderRadius: "4px",
+                  }}
+                >
+                  Message sent successfully! Your email client should open shortly.
+                </div>
+              )}
 
               <form onSubmit={handleSubmit} className="contact-form">
                 <div className="form-row">
@@ -99,18 +146,13 @@ function ContactPage() {
 
                   <div className="form-group">
                     <label htmlFor="service">Service Interested In</label>
-                    <select
-                      id="service"
-                      name="service"
-                      value={formData.service}
-                      onChange={handleChange}
-                      required
-                    >
+                    <select id="service" name="service" value={formData.service} onChange={handleChange} required>
                       <option value="">Select a service</option>
                       <option value="matensa">Matensa (Money Transfer)</option>
                       <option value="insurance">Insurance</option>
                       <option value="travel">Travel Services</option>
                       <option value="translations">Translations</option>
+                      <option value="development">Web Development</option>
                       <option value="marketing">Art & Marketing Agency</option>
                       <option value="registrations">Registrations</option>
                       <option value="realestate">Real Estate</option>
@@ -133,12 +175,9 @@ function ContactPage() {
                   ></textarea>
                 </div>
 
-                <a href="mailto:Marketing@connect-services.me">
-  <button type="button" className="btn btn-primary btn-full">
-    Send Message
-  </button>
-</a>
-
+                <button type="submit" className="btn btn-primary btn-full" disabled={isSubmitting}>
+                  {isSubmitting ? "Sending..." : "Send Message"}
+                </button>
               </form>
             </div>
 
@@ -289,7 +328,7 @@ function ContactPage() {
         </div>
       </section>
     </main>
-  );
+  )
 }
 
-export default ContactPage;
+export default ContactPage
