@@ -45,9 +45,9 @@ function Services() {
 
           {/* Medium Service */}
           <div className="bento-item bento-medium">
-            <div className="service-icon">🏠</div>
-            <h3>Real Estate</h3>
-          <p>Property solutions and professional management services</p>
+            <div className="service-icon">💻</div>
+            <h3>Web Development</h3>
+          <p>Custom websites and web applications built for performance and scalability.</p>
             <a href="/services" className="service-link">Learn more →</a>
           </div>
 
