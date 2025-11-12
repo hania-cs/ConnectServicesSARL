@@ -214,7 +214,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <img src="../images/nader.JPG" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Nader Seif Eldeen</h3>
+                <h3>Nader Seifeldeen</h3>
                 <p className="team-role">Chief Executive Officer</p>
                 <p className="team-bio">
                   Ensuring seamless service delivery across all departments with a focus on efficiency and client
@@ -258,7 +258,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Hania Seifeldeen</h3>
                 <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-                  Providing comprehensive insurance solutions tailored to individual and business needs.
+                  Web Developer and Operations Specialist overseeing digital projects and client operations for the Ma Tensa app.
                 </p>
               </div>
             </div>
@@ -285,7 +285,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Ghaith Olabi</h3>
                 <p className="team-role">Translation Services Lead</p>
                 <p className="team-bio">
-                  Overseeing professional translation services in multiple languages with certified accuracy.
+                  Leads the company’s insurance services, managing client coverage and claims, while ensuring reliable and personalized service.
                 </p>
               </div>
             </div>
@@ -310,7 +310,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Kholoud Naji</h3>
                 <p className="team-role">Sworn Translator</p>
                 <p className="team-bio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, illum.  
+                  Sworn Translator specializing in legal, financial, and academic translation with over a decade of experience.
                 </p>
               </div>
             </div>
