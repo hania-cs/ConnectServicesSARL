@@ -224,18 +224,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
             </div>
 
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/kholoud.png" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Kholoud Naji</h3>
-                <p className="team-role">Sworn Translator</p>
-                <p className="team-bio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, illum.  
-                </p>
-              </div>
-            </div>
+          
 
             <div className="team-card">
               <div className="team-image">
@@ -246,6 +235,17 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <p className="team-role">Travel Services Director</p>
                 <p className="team-bio">
                   Expert in global travel coordination with partnerships spanning 50+ countries worldwide.
+                </p>
+              </div>
+            </div><div className="team-card">
+              <div className="team-image">
+                <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Fidaa Safi</h3>
+                <p className="team-role">Translation Services Lead</p>
+                <p className="team-bio">
+                  Overseeing professional translation services in multiple languages with certified accuracy.
                 </p>
               </div>
             </div>
@@ -263,31 +263,8 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
             </div>
 
-            <div className="team-card">
-              <div className="team-image">
-                <img src="/professional-headshot-businessman-finance.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Yolla Dergham</h3>
-                <p className="team-role">Financial Services Manager</p>
-                <p className="team-bio">
-                  Managing secure money transfer operations and ensuring competitive rates for all clients.
-                </p>
-              </div>
-            </div>
-
-            <div className="team-card">
-              <div className="team-image">
-                <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Fidaa Safi</h3>
-                <p className="team-role">Translation Services Lead</p>
-                <p className="team-bio">
-                  Overseeing professional translation services in multiple languages with certified accuracy.
-                </p>
-              </div>
-            </div>
+           
+            
               <div className="team-card">
                 <div className="team-image">
                   <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
@@ -302,13 +279,38 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             </div>
               <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+                <img src="../images/image.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Ghaith Albeh</h3>
+                <h3>Ghaith Olabi</h3>
                 <p className="team-role">Translation Services Lead</p>
                 <p className="team-bio">
                   Overseeing professional translation services in multiple languages with certified accuracy.
+                </p>
+              </div>
+            </div>
+             <div className="team-card">
+              <div className="team-image">
+                <img src="/professional-headshot-businessman-finance.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Yolla Dergham</h3>
+                <p className="team-role">Financial Services Manager</p>
+                <p className="team-bio">
+                  Managing secure money transfer operations and ensuring competitive rates for all clients.
+                </p>
+              </div>
+            </div>
+
+                <div className="team-card">
+              <div className="team-image">
+                <img src="../images/kholoud.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Kholoud Naji</h3>
+                <p className="team-role">Sworn Translator</p>
+                <p className="team-bio">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, illum.  
                 </p>
               </div>
             </div>
