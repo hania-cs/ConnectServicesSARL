@@ -217,8 +217,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Nader Seifeldeen</h3>
                 <p className="team-role">Chief Executive Officer</p>
                 <p className="team-bio">
-                  Ensuring seamless service delivery across all departments with a focus on efficiency and client
-                  satisfaction.
+                  An experienced executive in business administration, financial strategy, accounting services with over a decade of experience and a member of both the Lebanese Association for Certified Public Accounting and the Arab Foundation of Auditors and Accountants since 2017.
                 </p>
                
               </div>
@@ -228,24 +227,41 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
 
             <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businessman-director.jpg" alt="Team Member" />
+                <img src="../images/nidaa.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Nidaa Safi</h3>
-                <p className="team-role">Travel Services Director</p>
+                <p className="team-role">Head of Real Estate Division and Marketing Coordinator</p>
                 <p className="team-bio">
-                  Expert in global travel coordination with partnerships spanning 50+ countries worldwide.
+Leading the Real Estate Division and Marketing efforts, he oversees property operations, drives market positioning, and implements communication strategies that support company growth and client engagement.
+</p>
+              </div>
+            </div>
+            
+                <div className="team-card">
+              <div className="team-image">
+                <img src="../images/kholoud.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Kholoud Naji</h3>
+                <p className="team-role">Head of Translation Department</p>
+                <p className="team-bio">
+                 Leading the Translation Department, she manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
+
                 </p>
               </div>
-            </div><div className="team-card">
+              
+            </div>
+            <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+                <img src="../images/Fidaa.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Fidaa Safi</h3>
-                <p className="team-role">Translation Services Lead</p>
+                <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-                  Overseeing professional translation services in multiple languages with certified accuracy.
+                  Specializing in insurance, she manages client services, policy support, and claims processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+
                 </p>
               </div>
             </div>
@@ -256,9 +272,10 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
               <div className="team-info">
                 <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Insurance Specialist</p>
+                <p className="team-role">Head of Web Development Division</p>
                 <p className="team-bio">
-                  Web Developer and Operations Specialist overseeing digital projects and client operations for the Ma Tensa app.
+                  Leading the Development Division, she creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
+
                 </p>
               </div>
             </div>
@@ -267,13 +284,14 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             
               <div className="team-card">
                 <div className="team-image">
-                  <img src="/professional-headshot-businesswoman-translator.jpg" alt="Team Member" />
+                  <img src="../images/rami.png" alt="Team Member" />
                 </div>
                 <div className="team-info">
                   <h3>Rami Dagher</h3>
-                  <p className="team-role">Translation Services Lead</p>
+                  <p className="team-role">Head of Accounting Division</p>
                   <p className="team-bio">
-                    Overseeing professional translation services in multiple languages with certified accuracy.
+                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+
                   </p>
                 </div>
             </div>
@@ -283,38 +301,43 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
               <div className="team-info">
                 <h3>Ghaith Olabi</h3>
-                <p className="team-role">Translation Services Lead</p>
+                <p className="team-role">Head of Insurance Division</p>
                 <p className="team-bio">
-                  Leads the company’s insurance services, managing client coverage and claims, while ensuring reliable and personalized service.
+                  Leading the Insurance Department, he ensures efficient and compliant management of client services, policy administration, and claims processing, combining expertise with strong problem-solving and leadership skills to maintain high standards.
+
+
+
                 </p>
               </div>
             </div>
              <div className="team-card">
               <div className="team-image">
-                <img src="/professional-headshot-businessman-finance.jpg" alt="Team Member" />
+                <img src="../images/yolla.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Yolla Dergham</h3>
-                <p className="team-role">Financial Services Manager</p>
+                <p className="team-role">Head of Media and Marketing</p>
                 <p className="team-bio">
-                  Managing secure money transfer operations and ensuring competitive rates for all clients.
+                  Leading the Marketing and Media division, she oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
                 </p>
               </div>
             </div>
 
-                <div className="team-card">
+              <div className="team-card">
               <div className="team-image">
-                <img src="../images/kholoud.png" alt="Team Member" />
+                <img src="../images/rashel.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Kholoud Naji</h3>
-                <p className="team-role">Sworn Translator</p>
+                <h3>Rashel Faour</h3>
+                <p className="team-role">Head of Traveling and Ticketing Department</p>
                 <p className="team-bio">
-                  Sworn Translator specializing in legal, financial, and academic translation with over a decade of experience.
+                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
+
                 </p>
               </div>
             </div>
           </div>
+          
         </div>
       </section>
 

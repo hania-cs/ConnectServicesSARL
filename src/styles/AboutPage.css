@@ -450,7 +450,7 @@
 
 .team-image {
   width: 100%;
-  height: 400px; /* Increased height to show full vertical image */
+  height: 450px; /* Increased height to show full vertical image */
   overflow: hidden;
   background: var(--off-white); /* Changed to solid background */
   display: flex;

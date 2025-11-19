@@ -40,7 +40,6 @@ function ContactPage() {
     const mailtoLink = `mailto:Marketing@connect-services.me?subject=${subject}&body=${body}`
     window.location.href = mailtoLink
 
-    // Reset form after a short delay
     setTimeout(() => {
       setFormData({
         name: "",
