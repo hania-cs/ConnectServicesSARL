@@ -244,7 +244,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Kholoud Naji</h3>
-                <p className="team-role">Head of Translation Department</p>
+                <p className="team-role">Head of Translation Division</p>
                 <p className="team-bio">
                  Leading the Translation Department, she manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
 
@@ -316,7 +316,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Yolla Dergham</h3>
-                <p className="team-role">Head of Media and Marketing</p>
+                <p className="team-role">Head of Media and Marketing Division</p>
                 <p className="team-bio">
                   Leading the Marketing and Media division, she oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
                 </p>
@@ -329,7 +329,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Rashel Faour</h3>
-                <p className="team-role">Head of Traveling and Ticketing Department</p>
+                <p className="team-role">Head of Traveling and Ticketing Division</p>
                 <p className="team-bio">
                   Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
 
