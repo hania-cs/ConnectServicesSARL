@@ -250,7 +250,43 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
 
                 </p>
               </div>
-              
+                 <div className="team-card">
+              <div className="team-image">
+                <img src="../images/yolla.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Yolla Dergham</h3>
+                <p className="team-role">Head of Media and Marketing Division</p>
+                <p className="team-bio">
+                  Leading the Marketing and Media division, she oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
+                </p>
+              </div>
+            </div>
+             <div className="team-card">
+              <div className="team-image">
+                <img src="../images/hania.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Hania Seifeldeen</h3>
+                <p className="team-role">Head of Web Development Division</p>
+                <p className="team-bio">
+                  Leading the Development Division, she creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
+
+                </p>
+              </div>
+            </div>
+                     <div className="team-card">
+                <div className="team-image">
+                  <img src="../images/rami.png" alt="Team Member" />
+                </div>
+                <div className="team-info">
+                  <h3>Rami Dagher</h3>
+                  <p className="team-role">Head of Accounting Division</p>
+                  <p className="team-bio">
+                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+
+                  </p>
+                </div>
             </div>
             <div className="team-card">
               <div className="team-image">
@@ -266,34 +302,11 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
             </div>
 
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/hania.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Head of Web Development Division</p>
-                <p className="team-bio">
-                  Leading the Development Division, she creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
-
-                </p>
-              </div>
-            </div>
+           
 
            
             
-              <div className="team-card">
-                <div className="team-image">
-                  <img src="../images/rami.png" alt="Team Member" />
-                </div>
-                <div className="team-info">
-                  <h3>Rami Dagher</h3>
-                  <p className="team-role">Head of Accounting Division</p>
-                  <p className="team-bio">
-                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
-
-                  </p>
-                </div>
+       
             </div>
               <div className="team-card">
               <div className="team-image">
@@ -310,18 +323,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                 </p>
               </div>
             </div>
-             <div className="team-card">
-              <div className="team-image">
-                <img src="../images/yolla.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Yolla Dergham</h3>
-                <p className="team-role">Head of Media and Marketing Division</p>
-                <p className="team-bio">
-                  Leading the Marketing and Media division, she oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
-                </p>
-              </div>
-            </div>
+          
 
               <div className="team-card">
               <div className="team-image">
