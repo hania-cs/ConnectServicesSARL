@@ -250,7 +250,9 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
 
                 </p>
               </div>
-                 <div className="team-card">
+              
+            </div>
+               <div className="team-card">
               <div className="team-image">
                 <img src="../images/yolla.jpg" alt="Team Member" />
               </div>
@@ -262,7 +264,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                 </p>
               </div>
             </div>
-             <div className="team-card">
+                   <div className="team-card">
               <div className="team-image">
                 <img src="../images/hania.jpg" alt="Team Member" />
               </div>
@@ -275,7 +277,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                 </p>
               </div>
             </div>
-                     <div className="team-card">
+             <div className="team-card">
                 <div className="team-image">
                   <img src="../images/rami.png" alt="Team Member" />
                 </div>
@@ -302,12 +304,11 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
             </div>
 
-           
+     
 
            
             
-       
-            </div>
+             
               <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
