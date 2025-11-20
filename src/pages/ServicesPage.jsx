@@ -35,6 +35,23 @@ function ServicesPage() {
       ],
     },
     {
+      id: "business",
+      icon: "📊",
+      title: "Business Developments",
+      description: "Strategic consulting to accelerate your business growth",
+      color: "#1B75BC",
+      subServices: [
+        "Website Development",
+        "Feasability Study",
+        "Business managements & control",
+        "Prepare missions & visions",
+        "Tax Advisory",
+        "Catering",
+        "Wedding Planner",
+        
+      ],
+    },
+    {
       id: "travel",
       icon: "✈️",
       title: "Travel Services",
@@ -50,18 +67,7 @@ function ServicesPage() {
       color: "#1B75BC",
       subServices: ["All type of letters & books", "Embassy's documents", "Legal personal papers"],
     },
-    {
-  id: "development",
-  icon: "💻",
-  title: "Web Development",
-  description: "Custom websites and web applications built for performance and scalability.",
-  color: "#1B75BC",
-  subServices: [
-    "Responsive website design",
-    "E-commerce development",
-    "Frontend & backend integration"
-  ]
-},
+
 
     {
       id: "marketing",
@@ -107,21 +113,7 @@ function ServicesPage() {
         "Building management & control",
       ],
     },
-    {
-      id: "business",
-      icon: "📊",
-      title: "Business Developments",
-      description: "Strategic consulting to accelerate your business growth",
-      color: "#1B75BC",
-      subServices: [
-        "Feasability Study",
-        "Business managements & control",
-        "Prepare missions & visions",
-        "Tax Advisory",
-        "Catering",
-        "Wedding Planner",
-      ],
-    },
+    
   ]
 
   return (

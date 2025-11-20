@@ -325,7 +325,7 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
 
               <div className="team-card">
               <div className="team-image">
-                <img src="../images/rashel.jpg" alt="Team Member" />
+                <img src="../images/rashel.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Rashel Faour</h3>
