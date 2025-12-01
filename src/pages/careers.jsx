@@ -29,10 +29,7 @@ function CareersPage() {
                   <div className="careers-stat-number">Growing</div>
                   <div className="careers-stat-label">Team Size</div>
                 </div>
-                <div className="careers-hero-stat">
-                  <div className="careers-stat-number">Multiple</div>
-                  <div className="careers-stat-label">Service Areas</div>
-                </div>
+               
               </div>
             </div>
            
