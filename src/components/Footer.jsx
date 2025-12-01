@@ -57,7 +57,7 @@ function Footer() {
         <div className="footer-bottom">
           <p>&copy; 2025 Connect Services SARL. All rights reserved.</p>
            <p >
-  Coded and designed with <span role="img" aria-label="heart">❤️</span> by{' '}
+  Coded and Designed with <span role="img" aria-label="heart">❤️</span> by{' '}
   <a 
     href="https://my-portfolio-hania-cs-projects.vercel.app/" 
     style={{ color: '#1e90ff', textDecoration: 'none' }}
