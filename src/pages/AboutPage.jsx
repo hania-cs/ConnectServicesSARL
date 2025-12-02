@@ -307,37 +307,39 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
             </div>
             
-             
+             <div className="team-card">
+              <div className="team-image">
+                <img src="../images/nisreen.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Nisreen Talayeh</h3>
+                <p className="team-role">Head of Insurance Division</p>
+                <p className="team-bio">
+
+
+As the Head of our Insurance Division, she leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+
+
+
+                </p>
+              </div>
+            </div>
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Ghaith Olabi</h3>
-                <p className="team-role">Head of Insurance Division</p>
+                <p className="team-role">Insurance Speicalist</p>
                 <p className="team-bio">
-                  Leading the Insurance Department, he ensures efficient and compliant management of client services, policy administration, and claims processing, combining expertise with strong problem-solving and leadership skills to maintain high standards.
-
+As an Insurance Specialist, he supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
 
 
                 </p>
               </div>
             </div>
  
-              <div className="team-card">
-              <div className="team-image">
-                <img src="../images/nisreen.png" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Nisreen Talayeh</h3>
-                <p className="team-role">Insurance Specialist</p>
-                <p className="team-bio">
-                  As our insurance specialist, she draws on extensive international experience in client relations, portfolio management, and policy oversight, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
-
-
-                </p>
-              </div>
-            </div>
+              
           
              <div className="team-card">
               <div className="team-image">
