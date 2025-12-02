@@ -277,35 +277,22 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                 </p>
               </div>
             </div>
-             <div className="team-card">
-                <div className="team-image">
-                  <img src="../images/rami.png" alt="Team Member" />
-                </div>
-                <div className="team-info">
-                  <h3>Rami Dagher</h3>
-                  <p className="team-role">Head of Accounting Division</p>
-                  <p className="team-bio">
-                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
-
-                  </p>
-                </div>
-            </div>
-          
-     
-
-             <div className="team-card">
+            
+          <div className="team-card">
               <div className="team-image">
-                <img src="../images/rashel.png" alt="Team Member" />
+                <img src="../images/Fidaa.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Rashel Faour</h3>
-                <p className="team-role">Head of Traveling and Ticketing Division</p>
+                <h3>Fidaa Safi</h3>
+                <p className="team-role">Ma Tensa Transaction officer</p>
                 <p className="team-bio">
-                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
-
+Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
                 </p>
               </div>
             </div>
+     
+
+            
             
              <div className="team-card">
               <div className="team-image">
@@ -341,20 +328,33 @@ As an Insurance Specialist, he supports the efficient and compliant handling of 
  
               
           
-             <div className="team-card">
+             
+ <div className="team-card">
+                <div className="team-image">
+                  <img src="../images/rami.png" alt="Team Member" />
+                </div>
+                <div className="team-info">
+                  <h3>Rami Dagher</h3>
+                  <p className="team-role">Head of Accounting Division</p>
+                  <p className="team-bio">
+                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+
+                  </p>
+                </div>
+            </div>
+           <div className="team-card">
               <div className="team-image">
-                <img src="../images/Fidaa.jpg" alt="Team Member" />
+                <img src="../images/rashel.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Fidaa Safi</h3>
-                <p className="team-role">Ma Tensa Transaction officer</p>
+                <h3>Rashel Faour</h3>
+                <p className="team-role">Head of Traveling and Ticketing Division</p>
                 <p className="team-bio">
-Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
+
                 </p>
               </div>
             </div>
-
-          
 
            
           </div>
