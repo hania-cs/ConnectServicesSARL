@@ -290,26 +290,25 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                   </p>
                 </div>
             </div>
-            <div className="team-card">
+          
+     
+
+             <div className="team-card">
               <div className="team-image">
-                <img src="../images/Fidaa.jpg" alt="Team Member" />
+                <img src="../images/rashel.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Fidaa Safi</h3>
-                <p className="team-role">Insurance Specialist</p>
+                <h3>Rashel Faour</h3>
+                <p className="team-role">Head of Traveling and Ticketing Division</p>
                 <p className="team-bio">
-                  Specializing in insurance, she manages client services, policy support, and claims processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
 
                 </p>
               </div>
             </div>
-
-     
-
-           
             
              
-              <div className="team-card">
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
               </div>
@@ -324,21 +323,38 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
                 </p>
               </div>
             </div>
-          
-
+ 
               <div className="team-card">
               <div className="team-image">
-                <img src="../images/rashel.png" alt="Team Member" />
+                <img src="../images/nisreen.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Rashel Faour</h3>
-                <p className="team-role">Head of Traveling and Ticketing Division</p>
+                <h3>Nisreen Talayeh</h3>
+                <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
+                  As our insurance specialist, she draws on extensive international experience in client relations, portfolio management, and policy oversight, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+
 
                 </p>
               </div>
             </div>
+          
+             <div className="team-card">
+              <div className="team-image">
+                <img src="../images/Fidaa.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Fidaa Safi</h3>
+                <p className="team-role">Ma Tensa Transaction officer</p>
+                <p className="team-bio">
+Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+                </p>
+              </div>
+            </div>
+
+          
+
+           
           </div>
           
         </div>

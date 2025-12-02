@@ -37,10 +37,8 @@ function CareersPage() {
         </div>
       </section>
 
-      {/* Why Join Us Section */}
      
 
-      {/* Open Positions Section */}
       <section className="careers-open-positions careers-section">
         <div className="careers-container">
           <div className="careers-section-title">
