@@ -209,19 +209,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             <p>The experts dedicated to making your experience exceptional</p>
           </div>
           <div className="team-grid">
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/nader.JPG" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Nader Seifeldeen</h3>
-                <p className="team-role">Chief Executive Officer</p>
-                <p className="team-bio">
-                  An experienced executive in business administration, financial strategy, accounting services with over a decade of experience and a member of both the Lebanese Association for Certified Public Accounting and the Arab Foundation of Auditors and Accountants since 2017.
-                </p>
-               
-              </div>
-            </div>
+           
 
           
 
