@@ -91,11 +91,9 @@ function ServicesPage() {
       description: "Legal and official registration services made simple",
       color: "#1B75BC",
       subServices: [
-        "Corporate & private registration",
-        "Commercial registration",
+        "Corporate & private formalities",
         "Trade Mark registration",
-        "NSSF",
-        "MOF",
+   
         "Real estate Registration",
         "Car Registration",
       ],
