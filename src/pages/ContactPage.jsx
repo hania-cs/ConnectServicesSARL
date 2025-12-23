@@ -37,7 +37,7 @@ function ContactPage() {
         `Message:\n${formData.message}`,
     )
 
-    const mailtoLink = `mailto:Marketing@connect-services.me?subject=${subject}&body=${body}`
+    const mailtoLink = `mailto:Support@connect-services.me ?subject=${subject}&body=${body}`
     window.location.href = mailtoLink
 
     setTimeout(() => {
@@ -191,7 +191,7 @@ function ContactPage() {
                     <div className="method-icon">📧</div>
                     <div className="method-content">
                       <h4>Email</h4>
-                      <a href="mailto:Marketing@connect-services.me">Marketing@connect-services.me</a>
+                      <a href="mailto:Support@connect-services.me">support@connect-services.me</a>
                     </div>
                   </div>
 

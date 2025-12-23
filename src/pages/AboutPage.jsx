@@ -219,9 +219,9 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
               <div className="team-info">
                 <h3>Nidaa Safi</h3>
-                <p className="team-role">Head of Real Estate Division and Marketing Coordinator</p>
+                <p className="team-role">Real Estate Manager</p>
                 <p className="team-bio">
-Leading the Real Estate Division and Marketing efforts, he oversees property operations, drives market positioning, and implements communication strategies that support company growth and client engagement.
+He oversees property operations, drives market positioning, and implements communication strategies that support company growth and client engagement.
 </p>
               </div>
             </div>
@@ -232,9 +232,9 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Kholoud Naji</h3>
-                <p className="team-role">Head of Translation Division</p>
+                <p className="team-role">Sworn translator</p>
                 <p className="team-bio">
-                 Leading the Translation Department, she manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
+                 She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
 
                 </p>
               </div>
@@ -246,9 +246,9 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Yolla Dergham</h3>
-                <p className="team-role">Head of Media and Marketing Division</p>
+                <p className="team-role">Graphic Desinger and Marketing Coordinator</p>
                 <p className="team-bio">
-                  Leading the Marketing and Media division, she oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
+                  She oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
                 </p>
               </div>
             </div>
@@ -258,9 +258,9 @@ Leading the Real Estate Division and Marketing efforts, he oversees property ope
               </div>
               <div className="team-info">
                 <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Head of Web Development Division</p>
+                <p className="team-role">Full Stack Developer</p>
                 <p className="team-bio">
-                  Leading the Development Division, she creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
+                  She creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
 
                 </p>
               </div>
@@ -288,11 +288,10 @@ Specializing in transaction operations, she manages client services, account sup
               </div>
               <div className="team-info">
                 <h3>Nisreen Talayeh</h3>
-                <p className="team-role">Head of Insurance Division</p>
+                <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
 
-
-As the Head of our Insurance Division, she leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+She leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
 
 
 
@@ -307,7 +306,7 @@ As the Head of our Insurance Division, she leverages international experience fr
                 <h3>Ghaith Olabi</h3>
                 <p className="team-role">Insurance Speicalist</p>
                 <p className="team-bio">
-As an Insurance Specialist, he supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
+He supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
 
 
                 </p>
@@ -323,26 +322,14 @@ As an Insurance Specialist, he supports the efficient and compliant handling of 
                 </div>
                 <div className="team-info">
                   <h3>Rami Dagher</h3>
-                  <p className="team-role">Head of Accounting Division</p>
+                  <p className="team-role">Accountant</p>
                   <p className="team-bio">
-                    Leading the Accounting Division, he ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
 
                   </p>
                 </div>
             </div>
-           <div className="team-card">
-              <div className="team-image">
-                <img src="../images/rashel.png" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Rashel Faour</h3>
-                <p className="team-role">Head of Traveling and Ticketing Division</p>
-                <p className="team-bio">
-                  Leading the Travel and Ticketing division, she applies extensive experience in check-in operations, sales, and client support. With IATA certification and expertise in passenger assistance and travel coordination, she ensures efficient and high-quality service.
-
-                </p>
-              </div>
-            </div>
+          
 
            
           </div>

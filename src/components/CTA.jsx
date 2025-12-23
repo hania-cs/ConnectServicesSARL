@@ -16,7 +16,7 @@ function CTA() {
                     <div className="cta-method-icon">📧</div>
                     <div className="cta-method-content">
                       <h4>Email</h4>
-                      <a href="mailto:Marketing@connect-services.me">Marketing@connect-services.me</a>
+                      <a href="mailto:support@connect-services.me">support@connect-services.me</a>
                     </div>
                   </div>
 
