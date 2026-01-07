@@ -246,9 +246,9 @@ He oversees property operations, drives market positioning, and implements commu
               </div>
               <div className="team-info">
                 <h3>Yolla Dergham</h3>
-                <p className="team-role">Graphic Desinger and Marketing Coordinator</p>
+                <p className="team-role">Creative Director & Marketing Specialist</p>
                 <p className="team-bio">
-                  She oversees creative strategy, content, and team operations, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
+                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
                 </p>
               </div>
             </div>
