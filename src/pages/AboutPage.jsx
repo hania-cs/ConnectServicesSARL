@@ -331,7 +331,20 @@ He supports the efficient and compliant handling of client services, policy admi
             </div>
           
 
-           
+                        
+ <div className="team-card">
+                <div className="team-image">
+                  <img src="../images/dolly.png" alt="Team Member" />
+                </div>
+                <div className="team-info">
+                  <h3>Dolly Hammouda</h3>
+                  <p className="team-role">Ma Tensa Transaction Officer</p>
+                  <p className="team-bio">
+                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+
+                  </p>
+                </div>
+            </div>
           </div>
           
         </div>
