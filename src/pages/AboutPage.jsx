@@ -283,7 +283,23 @@ She leverages international experience from France and Lebanon and is recognized
                 </div>
             </div>
           
-          <div className="team-card">
+         
+     
+ <div className="team-card">
+              <div className="team-image">
+                <img src="../images/yolla.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Yolla Dergham</h3>
+                <p className="team-role">Marketing Specialist</p>
+                <p className="team-bio">
+                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
+                </p>
+              </div>
+            </div>
+            
+            
+              <div className="team-card">
               <div className="team-image">
                 <img src="../images/Fidaa.jpg" alt="Team Member" />
               </div>
@@ -295,22 +311,6 @@ Specializing in transaction operations, she manages client services, account sup
                 </p>
               </div>
             </div>
-     
- <div className="team-card">
-              <div className="team-image">
-                <img src="../images/yolla.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Yolla Dergham</h3>
-                <p className="team-role">Creative Director & Marketing Specialist</p>
-                <p className="team-bio">
-                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
-                </p>
-              </div>
-            </div>
-            
-            
-             
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
