@@ -232,57 +232,13 @@ He oversees property operations, drives market positioning, and implements commu
               </div>
               <div className="team-info">
                 <h3>Kholoud Naji</h3>
-                <p className="team-role">Sworn translator</p>
+                <p className="team-role">General Director and Sworn translator</p>
                 <p className="team-bio">
                  She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
 
                 </p>
               </div>
-              
-            </div>
-               <div className="team-card">
-              <div className="team-image">
-                <img src="../images/yolla.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Yolla Dergham</h3>
-                <p className="team-role">Creative Director & Marketing Specialist</p>
-                <p className="team-bio">
-                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
-                </p>
-              </div>
-            </div>
-                   <div className="team-card">
-              <div className="team-image">
-                <img src="../images/hania.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Full Stack Developer</p>
-                <p className="team-bio">
-                  She creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
-
-                </p>
-              </div>
-            </div>
-            
-          <div className="team-card">
-              <div className="team-image">
-                <img src="../images/Fidaa.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Fidaa Safi</h3>
-                <p className="team-role">Ma Tensa Transaction officer</p>
-                <p className="team-bio">
-Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
-                </p>
-              </div>
-            </div>
-     
-
-            
-            
-             <div className="team-card">
+              <div className="team-card">
               <div className="team-image">
                 <img src="../images/n2.png" alt="Team Member" />
               </div>
@@ -298,6 +254,63 @@ She leverages international experience from France and Lebanon and is recognized
                 </p>
               </div>
             </div>
+            </div>
+              
+                   <div className="team-card">
+              <div className="team-image">
+                <img src="../images/hania.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Hania Seifeldeen</h3>
+                <p className="team-role">Full Stack Developer</p>
+                <p className="team-bio">
+                  She creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
+
+                </p>
+              </div>
+            </div>
+             <div className="team-card">
+                <div className="team-image">
+                  <img src="../images/rami.png" alt="Team Member" />
+                </div>
+                <div className="team-info">
+                  <h3>Rami Dagher</h3>
+                  <p className="team-role">Accountant</p>
+                  <p className="team-bio">
+                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+
+                  </p>
+                </div>
+            </div>
+          
+          <div className="team-card">
+              <div className="team-image">
+                <img src="../images/Fidaa.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Fidaa Safi</h3>
+                <p className="team-role">Ma Tensa Transaction officer</p>
+                <p className="team-bio">
+Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+                </p>
+              </div>
+            </div>
+     
+ <div className="team-card">
+              <div className="team-image">
+                <img src="../images/yolla.jpg" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Yolla Dergham</h3>
+                <p className="team-role">Creative Director & Marketing Specialist</p>
+                <p className="team-bio">
+                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
+                </p>
+              </div>
+            </div>
+            
+            
+             
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
@@ -316,20 +329,7 @@ He supports the efficient and compliant handling of client services, policy admi
               
           
              
- <div className="team-card">
-                <div className="team-image">
-                  <img src="../images/rami.png" alt="Team Member" />
-                </div>
-                <div className="team-info">
-                  <h3>Rami Dagher</h3>
-                  <p className="team-role">Accountant</p>
-                  <p className="team-bio">
-                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
 
-                  </p>
-                </div>
-            </div>
-          
 
                         
  <div className="team-card">
