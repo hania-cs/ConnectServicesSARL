@@ -235,18 +235,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
             </div>
 
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/n2.png" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Nisreen Talayeh</h3>
-                <p className="team-role">Insurance Specialist</p>
-                <p className="team-bio">
-                  She leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
-                </p>
-              </div>
-            </div>
+           
               
             <div className="team-card">
               <div className="team-image">
