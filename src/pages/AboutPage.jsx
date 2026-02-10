@@ -37,7 +37,7 @@ function AboutPage() {
                As a young and ambitious startup, we aim to change that. Connect Services SARL is designed to be your all-in-one service partner, offering everything from travel arrangements and insurance solutions to money transfers, professional translations, and more — all under one roof.
               </p>
               <p>
-              Our goal is to redefine convenience by combining efficiency, trust, and accessibility in one integrated platform. Though we’re just getting started, our passion for innovation and our commitment to customer satisfaction drive everything we do.
+              Our goal is to redefine convenience by combining efficiency, trust, and accessibility in one integrated platform. Though we're just getting started, our passion for innovation and our commitment to customer satisfaction drive everything we do.
               </p>
             </div>
             <div className="story-stats">
@@ -209,10 +209,6 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             <p>The experts dedicated to making your experience exceptional</p>
           </div>
           <div className="team-grid">
-           
-
-          
-
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/nidaa.png" alt="Team Member" />
@@ -221,12 +217,12 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Nidaa Safi</h3>
                 <p className="team-role">Real Estate Manager</p>
                 <p className="team-bio">
-He oversees property operations, drives market positioning, and implements communication strategies that support company growth and client engagement.
-</p>
+                  He oversees property operations, drives market positioning, and implements communication strategies that support company growth and client engagement.
+                </p>
               </div>
             </div>
             
-                <div className="team-card">
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/kholoud.png" alt="Team Member" />
               </div>
@@ -234,11 +230,12 @@ He oversees property operations, drives market positioning, and implements commu
                 <h3>Kholoud Naji</h3>
                 <p className="team-role">General Director and Sworn translator</p>
                 <p className="team-bio">
-                 She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
-
+                  She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
                 </p>
               </div>
-              <div className="team-card">
+            </div>
+
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/n2.png" alt="Team Member" />
               </div>
@@ -246,17 +243,12 @@ He oversees property operations, drives market positioning, and implements commu
                 <h3>Nisreen Talayeh</h3>
                 <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-
-She leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
-
-
-
+                  She leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
                 </p>
               </div>
             </div>
-            </div>
               
-                   <div className="team-card">
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/hania.jpg" alt="Team Member" />
               </div>
@@ -265,27 +257,24 @@ She leverages international experience from France and Lebanon and is recognized
                 <p className="team-role">Full Stack Developer</p>
                 <p className="team-bio">
                   She creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
-
                 </p>
               </div>
             </div>
-             <div className="team-card">
-                <div className="team-image">
-                  <img src="../images/rami.png" alt="Team Member" />
-                </div>
-                <div className="team-info">
-                  <h3>Rami Dagher</h3>
-                  <p className="team-role">Accountant</p>
-                  <p className="team-bio">
-                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
 
-                  </p>
-                </div>
+            <div className="team-card">
+              <div className="team-image">
+                <img src="../images/rami.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Rami Dagher</h3>
+                <p className="team-role">Accountant</p>
+                <p className="team-bio">
+                  He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+                </p>
+              </div>
             </div>
-          
-         
-     
- <div className="team-card">
+ 
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/yolla.jpg" alt="Team Member" />
               </div>
@@ -298,8 +287,7 @@ She leverages international experience from France and Lebanon and is recognized
               </div>
             </div>
             
-            
-              <div className="team-card">
+            <div className="team-card">
               <div className="team-image">
                 <img src="../images/Fidaa.jpg" alt="Team Member" />
               </div>
@@ -307,46 +295,37 @@ She leverages international experience from France and Lebanon and is recognized
                 <h3>Fidaa Safi</h3>
                 <p className="team-role">Ma Tensa Transaction officer</p>
                 <p className="team-bio">
-Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
+                  Specializing in transaction operations, she manages client services, account support, and payment processing, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
                 </p>
               </div>
             </div>
+
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/image.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Ghaith Olabi</h3>
-                <p className="team-role">Insurance Speicalist</p>
+                <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-He supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
-
-
+                  He supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
                 </p>
               </div>
             </div>
  
-              
-          
-             
-
-
-                        
- <div className="team-card">
-                <div className="team-image">
-                  <img src="../images/dolly.png" alt="Team Member" />
-                </div>
-                <div className="team-info">
-                  <h3>Dolly Hammouda</h3>
-                  <p className="team-role">Ma Tensa Transaction Officer</p>
-                  <p className="team-bio">
-                    He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
-
-                  </p>
-                </div>
+            <div className="team-card">
+              <div className="team-image">
+                <img src="../images/dolly.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Dolly Hammouda</h3>
+                <p className="team-role">Ma Tensa Transaction Officer</p>
+                <p className="team-bio">
+                  He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+                </p>
+              </div>
             </div>
           </div>
-          
         </div>
       </section>
 
