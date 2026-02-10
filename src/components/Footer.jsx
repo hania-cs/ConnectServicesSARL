@@ -59,7 +59,7 @@ function Footer() {
            <p >
   Coded and Designed with <span role="img" aria-label="heart">❤️</span> by{' '}
   <a 
-    href="https://my-portfolio-hania-cs-projects.vercel.app/" 
+    href="https://haniaseif-portfolio.vercel.app/" 
     style={{ color: '#1e90ff', textDecoration: 'none' }}
   >
     Hania Seifeldeen
