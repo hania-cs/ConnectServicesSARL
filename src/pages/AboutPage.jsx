@@ -31,10 +31,10 @@ function AboutPage() {
               <div className="section-label">Our Story</div>
               <h2>Built on Trust, Driven by Excellence</h2>
               <p>
-                Connect Services SARL was founded this year (2025) with a clear and innovative vision: to make life simpler by bringing multiple essential services together in one place. The idea was born from a simple observation — clients often have to hop from one company to another to manage everyday needs, wasting time and energy in the process.
+                Connect Services SARL was founded in 2025 with a clear and innovative vision: to make life simpler by bringing multiple essential services together in one place. The idea was born from a simple observation, clients often have to hop from one company to another to manage everyday needs, wasting time and energy in the process.
               </p>
               <p>
-               As a young and ambitious startup, we aim to change that. Connect Services SARL is designed to be your all-in-one service partner, offering everything from travel arrangements and insurance solutions to money transfers, professional translations, and more — all under one roof.
+               As a young and ambitious startup, we aim to change that. Connect Services SARL is designed to be your all-in-one service partner, offering everything from travel arrangements and insurance solutions to money transfers, professional translations, and more, all under one roof.
               </p>
               <p>
               Our goal is to redefine convenience by combining efficiency, trust, and accessibility in one integrated platform. Though we're just getting started, our passion for innovation and our commitment to customer satisfaction drive everything we do.
@@ -209,6 +209,18 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             <p>The experts dedicated to making your experience exceptional</p>
           </div>
           <div className="team-grid">
+               <div className="team-card">
+              <div className="team-image">
+                <img src="../images/kholoud.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Kholoud Naji</h3>
+                <p className="team-role">General Director & Sworn translator</p>
+                <p className="team-bio">
+                  She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
+                </p>
+              </div>
+            </div>
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/nidaa.png" alt="Team Member" />
@@ -222,46 +234,35 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
             </div>
             
-            <div className="team-card">
+         
+
+           
+               <div className="team-card">
               <div className="team-image">
-                <img src="../images/kholoud.png" alt="Team Member" />
+                <img src="../images/n2.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Kholoud Naji</h3>
-                <p className="team-role">General Director and Sworn translator</p>
+                <h3>Nisreen Talayeh</h3>
+                <p className="team-role">Insurance Specialist</p>
                 <p className="team-bio">
-                  She manages legal, financial, and technical translations with precision. Experienced in mentoring and training, she combines linguistic expertise with strong leadership to ensure accurate and reliable services.
+                  She leverages international experience from France and Lebanon and is recognized in France for leadership and excellence in client support, combining strong communication and analytical skills to ensure accuracy, reliability, and high-quality service delivery.
                 </p>
               </div>
             </div>
-
-           
-              
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/hania.jpg" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Full Stack Developer</p>
+                <p className="team-role">Full Stack Developer & UI/UX Designer</p>
                 <p className="team-bio">
-                  She creates professional and user-friendly websites, combining creativity and client-focused expertise to deliver engaging platforms that effectively showcase services and projects.
+                  Founder of Vertexa Digital Studios and a Computer Science graduate from Spain and Lebanon, she leads the design and development of secure, scalable, and high-performance digital platforms. She combines technical expertise with strategic UI/UX design to deliver professional solutions built for long-term business growth.
                 </p>
               </div>
             </div>
 
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/rami.png" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Rami Dagher</h3>
-                <p className="team-role">Accountant</p>
-                <p className="team-bio">
-                  He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
-                </p>
-              </div>
-            </div>
+           
  
             <div className="team-card">
               <div className="team-image">
@@ -275,7 +276,18 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 </p>
               </div>
             </div>
-            
+             <div className="team-card">
+              <div className="team-image">
+                <img src="../images/rami.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Rami Dagher</h3>
+                <p className="team-role">Accountant</p>
+                <p className="team-bio">
+                  He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+                </p>
+              </div>
+            </div>
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/Fidaa.jpg" alt="Team Member" />
@@ -288,20 +300,18 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 </p>
               </div>
             </div>
-
-            <div className="team-card">
+               <div className="team-card">
               <div className="team-image">
-                <img src="../images/image.png" alt="Team Member" />
+                <img src="../images/r.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Ghaith Olabi</h3>
-                <p className="team-role">Insurance Specialist</p>
+                <h3>Rawan Akl Abo Ltaif</h3>
+                <p className="team-role">Ticketing & Travel Officer</p>
                 <p className="team-bio">
-                  He supports the efficient and compliant handling of client services, policy administration, and claims processing, applying solid problem-solving and communication skills to ensure reliable, high-quality service.
+                  She holds a degree in Travel and Tourism from the Lebanese University and has professional experience as a Travel Agent at ATTA and as a Sales Officer, combining industry knowledge with strong sales and customer service skills.
                 </p>
               </div>
             </div>
- 
             <div className="team-card">
               <div className="team-image">
                 <img src="../images/dolly.png" alt="Team Member" />
@@ -314,6 +324,9 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 </p>
               </div>
             </div>
+           
+ 
+            
           </div>
         </div>
       </section>

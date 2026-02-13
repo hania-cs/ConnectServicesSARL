@@ -1,61 +1,7 @@
-"use client"
-
-import { useState } from "react"
 import { Facebook, Instagram, Linkedin } from "lucide-react"
 import "../styles/ContactPage.css"
 
 function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    service: "",
-    message: "",
-  })
-
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState(null)
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Contact Form: ${formData.service || "General Inquiry"}`)
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\n` +
-        `Email: ${formData.email}\n` +
-        `Phone: ${formData.phone}\n` +
-        `Service: ${formData.service}\n\n` +
-        `Message:\n${formData.message}`,
-    )
-
-    const mailtoLink = `mailto:Support@connect-services.me ?subject=${subject}&body=${body}`
-    window.location.href = mailtoLink
-
-    setTimeout(() => {
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        service: "",
-        message: "",
-      })
-      setIsSubmitting(false)
-      setSubmitStatus("success")
-
-      // Clear status message after 3 seconds
-      setTimeout(() => setSubmitStatus(null), 3000)
-    }, 500)
-  }
-
   return (
     <main className="contact-page">
       {/* Hero Section */}
@@ -74,223 +20,161 @@ function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Content */}
+      {/* Contact Content with Masonry/Bingo Layout */}
       <section className="contact-content section">
         <div className="container">
           <div className="contact-grid">
-            {/* Contact Form */}
-            <div className="contact-form-wrapper">
-              <div className="form-header">
-                <h2>Send Us a Message</h2>
-                <p>Fill out the form below and we'll respond within 24 hours</p>
+            {/* Contact Info Card 1 - Contact Methods */}
+            <div className="contact-info-card">
+              <h3>Contact Information</h3>
+              <p className="info-subtitle">Reach out to us through any of these channels</p>
+
+              <div className="contact-methods">
+                <div className="contact-method">
+                  <div className="method-icon-wrapper">
+                    <div className="method-icon">📧</div>
+                  </div>
+                  <div className="method-content">
+                    <h4>Email</h4>
+                    <a href="mailto:Support@connect-services.me">support@connect-services.me</a>
+                  </div>
+                </div>
+
+                <div className="contact-method">
+                  <div className="method-icon-wrapper">
+                    <div className="method-icon">📞</div>
+                  </div>
+                  <div className="method-content">
+                    <h4>Phone</h4>
+                    <a href="tel:+96181082144">+961 81 082 144</a>
+                  </div>
+                </div>
+
+                <div className="contact-method">
+                  <div className="method-icon-wrapper">
+                    <div className="method-icon">📱</div>
+                  </div>
+                  <div className="method-content">
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/96181082144" target="_blank" rel="noopener noreferrer">
+                      +961 81 082 144
+                    </a>
+                  </div>
+                </div>
+
+                <div className="contact-method">
+                  <div className="method-icon-wrapper">
+                    <div className="method-icon">📍</div>
+                  </div>
+                  <div className="method-content">
+                    <h4>Address</h4>
+                    <p>
+                      Dahr Alahmar,
+                      <br />
+                      Main Road
+                    </p>
+                  </div>
+                </div>
               </div>
-
-              {submitStatus === "success" && (
-                <div
-                  className="success-message"
-                  style={{
-                    padding: "1rem",
-                    marginBottom: "1rem",
-                    backgroundColor: "#d4edda",
-                    color: "#155724",
-                    borderRadius: "4px",
-                  }}
-                >
-                  Message sent successfully! Your email client should open shortly.
-                </div>
-              )}
-
-              <form onSubmit={handleSubmit} className="contact-form">
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="name">Full Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      placeholder="John Doe"
-                      required
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="email">Email Address</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="john@example.com"
-                      required
-                    />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="phone">Phone Number</label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      placeholder="+1 (555) 123-4567"
-                      required
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="service">Service Interested In</label>
-                    <select id="service" name="service" value={formData.service} onChange={handleChange} required>
-                      <option value="">Select a service</option>
-                      <option value="matensa">Matensa (Money Transfer)</option>
-                      <option value="insurance">Insurance</option>
-                      <option value="travel">Travel Services</option>
-                      <option value="translations">Translations</option>
-                      <option value="development">Web Development</option>
-                      <option value="marketing">Art & Marketing Agency</option>
-                      <option value="registrations">Registrations</option>
-                      <option value="realestate">Real Estate</option>
-                      <option value="business">Business Developments</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="message">Message</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    placeholder="Tell us about your needs..."
-                    rows="6"
-                    required
-                  ></textarea>
-                </div>
-
-                <button type="submit" className="btn btn-primary btn-full" disabled={isSubmitting}>
-                  {isSubmitting ? "Sending..." : "Send Message"}
-                </button>
-              </form>
             </div>
 
-            {/* Contact Info */}
-            <div className="contact-info-wrapper">
-              <div className="contact-info-card">
-                <h3>Contact Information</h3>
-                <p className="info-subtitle">Reach out to us through any of these channels</p>
+            {/* Contact Info Card 2 - Business Hours & Social */}
+            <div className="contact-info-card">
+              <h3>Visit Us</h3>
+              <p className="info-subtitle">We're here to help you in person</p>
 
-                <div className="contact-methods">
-                  <div className="contact-method">
-                    <div className="method-icon">📧</div>
-                    <div className="method-content">
-                      <h4>Email</h4>
-                      <a href="mailto:Support@connect-services.me">support@connect-services.me</a>
-                    </div>
+              <div className="business-hours">
+                <h4>Business Hours</h4>
+                <div className="hours-list">
+                  <div className="hours-item">
+                    <span>Monday - Saturday</span>
+                    <span>9:00 AM - 5:00 PM</span>
                   </div>
-
-                  <div className="contact-method">
-                    <div className="method-icon">📞</div>
-                    <div className="method-content">
-                      <h4>Phone</h4>
-                      <a href="tel:+96181882848">+961 81 88 28 48</a>
-                    </div>
-                  </div>
-
-                  <div className="contact-method">
-                    <div className="method-icon">📱</div>
-                    <div className="method-content">
-                      <h4>WhatsApp</h4>
-                      <a href="https://wa.me/96181882848" target="_blank" rel="noopener noreferrer">
-                        +961 81 88 28 48
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="contact-method">
-                    <div className="method-icon">📍</div>
-                    <div className="method-content">
-                      <h4>Address</h4>
-                      <p>
-                        Dahr Alahmar,
-                        <br />
-                        Main Road
-                      </p>
-                    </div>
+                  <div className="hours-item">
+                    <span>Sunday</span>
+                    <span>Closed</span>
                   </div>
                 </div>
+              </div>
 
-                <div className="business-hours">
-                  <h4>Business Hours</h4>
-                  <div className="hours-list">
-                    <div className="hours-item">
-                      <span>Monday - Saturday</span>
-                      <span>9:00 AM - 5:00 PM</span>
-                    </div>
-                    <div className="hours-item">
-                      <span>Sunday</span>
-                      <span>Closed</span>
-                    </div>
-                  </div>
+              <h4 style={{ marginBottom: '1.5rem', fontSize: '1.25rem', color: 'var(--dark)' }}>Connect With Us</h4>
+              
+              {/* Social Links */}
+              <div className="social-links-container">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61583161839622"
+                  className="social-link"
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Facebook size={24} />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/connect.services.sarl/"
+                  className="social-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Instagram size={24} />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/connectservicessarl"
+                  className="social-link"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin size={24} />
+                </a>
+              </div>
+            </div>
+
+            {/* Map Card - Integrated in Grid */}
+            <div className="map-card">
+              <div className="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.4852391965505!2d35.83239986959562!3d33.52892069833491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ed56820944ff7%3A0x591a9f39bf9d9800!2sConnect%20services%20SARL!5e0!3m2!1sen!2slb!4v1762530152025!5m2!1sen!2slb"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Connect Services SARL Location"
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Contact Info Card 3 - Quick Info */}
+            <div className="contact-info-card">
+              <h3>Quick Response</h3>
+              <p className="info-subtitle">We're always ready to assist you</p>
+
+              <div className="contact-method" style={{ marginBottom: '1.5rem' }}>
+                <div className="method-icon-wrapper">
+                  <div className="method-icon">⚡</div>
                 </div>
+                <div className="method-content">
+                  <h4>Response Time</h4>
+                  <p>Within 24 hours on business days</p>
+                </div>
+              </div>
 
-                {/* Social Links */}
-                <div className="social-links-container">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61583161839622"
-                    className="social-link"
-                    aria-label="Facebook"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Facebook size={24} />
-                  </a>
-
-                  <a
-                    href="https://www.instagram.com/connect.services.sarl/"
-                    className="social-link"
-                    aria-label="Instagram"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Instagram size={24} />
-                  </a>
-
-                  <a
-                    href="https://www.linkedin.com/in/connectservicessarl"
-                    className="social-link"
-                    aria-label="LinkedIn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Linkedin size={24} />
-                  </a>
+              <div className="contact-method">
+                <div className="method-icon-wrapper">
+                  <div className="method-icon">💬</div>
+                </div>
+                <div className="method-content">
+                  <h4>Support Available</h4>
+                  <p>Monday to Saturday, 9 AM - 5 PM</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="contact-map">
-        <div className="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.4852391965505!2d35.83239986959562!3d33.52892069833491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ed56820944ff7%3A0x591a9f39bf9d9800!2sConnect%20services%20SARL!5e0!3m2!1sen!2slb!4v1762530152025!5m2!1sen!2slb"
-            width="100%"
-            height="500"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Connect Services SARL Location"
-          ></iframe>
         </div>
       </section>
 

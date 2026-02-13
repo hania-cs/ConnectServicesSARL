@@ -1,11 +1,9 @@
 .why-choose {
-  /* <CHANGE> Keeping dark background but updated accent colors */
   background: var(--dark);
   position: relative;
   overflow: hidden;
 }
 
-/* <CHANGE> Updated grid pattern with new blue */
 .why-choose::before {
   content: '';
   position: absolute;
@@ -18,6 +16,16 @@
     linear-gradient(90deg, rgba(27, 117, 188, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
   z-index: 0;
+  animation: gridPulse 4s ease-in-out infinite;
+}
+
+@keyframes gridPulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .why-choose::after {
@@ -27,44 +35,177 @@
   right: -200px;
   width: 600px;
   height: 600px;
-  /* <CHANGE> Updated radial gradient to new blue */
   background: radial-gradient(circle, rgba(27, 117, 188, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 30px);
+  }
+}
+
+.why-choose .container {
+  position: relative;
+  z-index: 1;
+}
+
+.why-choose .section-title {
+  position: relative;
+  z-index: 1;
+}
+
+.why-choose .section-title h2::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  border-radius: 2px;
 }
 
 .why-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .why-card {
-  background: var(--white);
-  padding: 2rem;
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3rem 2rem;
+  border-radius: 24px;
   text-align: center;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.why-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent-bright));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.why-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--primary), var(--accent-bright));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.why-card:hover::before {
+  transform: scaleX(1);
+}
+
+.why-card:hover::after {
+  opacity: 1;
 }
 
 .why-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--primary);
-  transform: translateY(-10px);
-  /* <CHANGE> Updated shadow color to new blue */
-  box-shadow: 0 20px 60px rgba(27, 117, 188, 0.2);
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(27, 117, 188, 0.3);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 
+    0 20px 60px rgba(27, 117, 188, 0.25),
+    0 8px 24px rgba(27, 117, 188, 0.15);
 }
+
+.why-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(27, 117, 188, 0.15), rgba(33, 150, 243, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.why-icon-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent-bright));
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: -1;
+}
+
+.why-card:hover .why-icon-wrapper {
+  transform: scale(1.15);
+  background: linear-gradient(135deg, rgba(27, 117, 188, 0.25), rgba(33, 150, 243, 0.35));
+  box-shadow: 
+    0 8px 32px rgba(27, 117, 188, 0.3),
+    0 0 40px rgba(27, 117, 188, 0.2);
+}
+
+.why-card:hover .why-icon-wrapper::before {
+  opacity: 0.3;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+
 .why-icon {
   font-size: 3rem;
-  margin-bottom: 1rem;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.why-card:hover .why-icon {
+  transform: scale(1.1);
 }
 
 .why-card h3 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   color: var(--dark);
+  transition: color 0.3s ease;
+}
+
+.why-card:hover h3 {
+  color: var(--primary);
 }
 
 .why-card p {
@@ -74,8 +215,40 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
+  .why-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .why-card {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .why-icon-wrapper {
+    width: 90px;
+    height: 90px;
+  }
+
+  .why-icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
   .why-grid {
     grid-template-columns: 1fr;
+  }
+
+  .why-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .why-icon-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .why-icon {
+    font-size: 2.25rem;
   }
 }
