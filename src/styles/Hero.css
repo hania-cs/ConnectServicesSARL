@@ -561,7 +561,9 @@
   }
 }
 
-/* Responsive Design */
+/* ============================================
+   TABLET (max-width: 1200px) — untouched logic
+   ============================================ */
 @media (max-width: 1200px) {
   .hero-grid {
     gap: 3rem;
@@ -576,6 +578,10 @@
   }
 }
 
+/* ============================================
+   MOBILE / TABLET BREAKPOINT (max-width: 968px)
+   Cards become a static grid BELOW the text
+   ============================================ */
 @media (max-width: 968px) {
   .hero {
     min-height: auto;
@@ -586,14 +592,63 @@
     padding: 3rem 0;
   }
 
+  /* Stack text first, cards second */
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 
+  /* Text stays on top (default order: 1) */
+  .hero-text {
+    order: 1;
+  }
+
+  /* Cards section goes below text */
   .hero-visual {
-    height: 450px;
-    order: -1;
+    order: 2;
+
+    /* Switch from absolute-positioned container to a flex grid */
+    position: static;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Reset ALL cards: remove absolute positioning so they flow naturally */
+  .floating-card {
+    position: static;
+    width: 100% !important;
+    transform: none !important;
+    animation: float 6s ease-in-out infinite;
+    padding: 1.25rem;
+  }
+
+  /* Show all 5 cards */
+  .floating-card-1,
+  .floating-card-2,
+  .floating-card-3,
+  .floating-card-4,
+  .floating-card-5 {
+    display: block;
+  }
+
+  /* Last card (5th) spans both columns to center it */
+  .floating-card-5 {
+    grid-column: 1 / -1;
+    max-width: 260px;
+    margin: 0 auto;
+    width: 260px !important;
+  }
+
+  /* Hide decorative lines on mobile — they make no sense without absolute layout */
+  .connection-line {
+    display: none;
+  }
+
+  .scroll-indicator {
+    display: none;
   }
 
   .hero-text h1 {
@@ -614,46 +669,28 @@
     min-width: 120px;
   }
 
-  .connection-line {
-    display: none;
+  .card-icon-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.75rem;
   }
 
-  .scroll-indicator {
-    display: none;
+  .card-icon {
+    font-size: 1.75rem;
   }
 
-  .floating-card-3,
-  .floating-card-4,
-  .floating-card-5 {
-    display: none;
+  .card-title {
+    font-size: 1rem;
   }
 
-  .floating-card-4,
-  .floating-card-5 {
-    display: none;
-  }
-
-  .floating-card-1 {
-    top: 10%;
-    left: 5%;
-    width: 200px;
-  }
-
-  .floating-card-2 {
-    top: 50%;
-    right: 5%;
-    width: 180px;
-  }
-
-  .floating-card-3 {
-    display: block;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 190px;
+  .card-text {
+    font-size: 0.85rem;
   }
 }
 
+/* ============================================
+   SMALL MOBILE (max-width: 640px)
+   ============================================ */
 @media (max-width: 640px) {
   .hero {
     padding: 5rem 0 3rem;
@@ -696,40 +733,15 @@
     font-size: 2.25rem;
   }
 
+  /* On very small screens, single column cards */
   .hero-visual {
-    height: 350px;
+    grid-template-columns: 1fr;
   }
 
-  .floating-card {
-    padding: 1.25rem;
-  }
-
-  .floating-card-1 {
-    width: 160px;
-    left: 0;
-  }
-
-  .floating-card-2 {
-    width: 160px;
-    right: 0;
-    top: 45%;
-  }
-
-  .card-icon-wrapper {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0.75rem;
-  }
-
-  .card-icon {
-    font-size: 1.75rem;
-  }
-
-  .card-title {
-    font-size: 1rem;
-  }
-
-  .card-text {
-    font-size: 0.85rem;
+  .floating-card-5 {
+    grid-column: auto;
+    max-width: 100%;
+    width: 100% !important;
+    margin: 0;
   }
 }
