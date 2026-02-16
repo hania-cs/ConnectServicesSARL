@@ -211,7 +211,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
           <div className="team-grid">
                <div className="team-card">
               <div className="team-image">
-                <img src="../images/kholoud.png" alt="Team Member" />
+                <img src="../images/kfinal2.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Kholoud Naji</h3>
@@ -264,18 +264,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
 
            
  
-            <div className="team-card">
-              <div className="team-image">
-                <img src="../images/yolla.jpg" alt="Team Member" />
-              </div>
-              <div className="team-info">
-                <h3>Yolla Dergham</h3>
-                <p className="team-role">Marketing Specialist</p>
-                <p className="team-bio">
-                  She oversees creative strategy and content, combining over 11 years of experience with strategic thinking and creativity to deliver impactful campaigns.
-                </p>
-              </div>
-            </div>
+           
              <div className="team-card">
               <div className="team-image">
                 <img src="../images/rami.png" alt="Team Member" />
