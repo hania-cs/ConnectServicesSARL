@@ -255,9 +255,9 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
               <div className="team-info">
                 <h3>Hania Seifeldeen</h3>
-                <p className="team-role">Full Stack Developer & UI/UX Designer</p>
+                <p className="team-role">Full Stack Developer & UI/UX Designer | Marketing Specialist</p>
                 <p className="team-bio">
-                  Founder of Vertexa Digital Studios and a Computer Science graduate from Spain and Lebanon, she leads the design and development of secure, scalable, and high-performance digital platforms. She combines technical expertise with strategic UI/UX design to deliver professional solutions built for long-term business growth.
+                  Founder of Vertexa Digital Studios and a Computer Science graduate from Spain and Lebanon, she leads the design and development of secure, scalable, and high-performance digital platforms. Alongside her technical focus, she contributes to marketing initiatives to ensure products are aligned with user needs and business goals.
                 </p>
               </div>
             </div>
@@ -295,9 +295,9 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
               </div>
               <div className="team-info">
                 <h3>Rawan Akl Abo Ltaif</h3>
-                <p className="team-role">Ticketing & Travel Officer</p>
+                <p className="team-role">Ticketing & Travel Agent</p>
                 <p className="team-bio">
-                  She holds a degree in Travel and Tourism from the Lebanese University and has professional experience as a Travel Agent at ATTA and as a Sales Officer, combining industry knowledge with strong sales and customer service skills.
+                  She holds a degree in Travel and Tourism from the Lebanese University and has professional experience as a Travel Agent at Aley Travel and Tourism Agency (ATTA) and as a Sales Officer, combining industry knowledge with strong sales and customer service skills.
                 </p>
               </div>
             </div>
