@@ -279,7 +279,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
             </div>
             <div className="team-card">
               <div className="team-image">
-                <img src="../images/Fidaa.jpg" alt="Team Member" />
+                <img src="../images/f2.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Fidaa Safi</h3>
