@@ -211,6 +211,18 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
           <div className="team-grid">
                <div className="team-card">
               <div className="team-image">
+                <img src="../images/Slei.png" alt="Team Member" />
+              </div>
+              <div className="team-info">
+                <h3>Sleiman Kasem Mhanna</h3>
+                <p className="team-role">CEO</p>
+                <p className="team-bio">
+                  He defines the company’s strategic direction and oversees operations, growth, and performance. With a strong background in business leadership and execution, he drives innovation, builds high-performing teams, and ensures the organization delivers measurable results with consistency and integrity.
+                </p>
+              </div>
+            </div>
+               <div className="team-card">
+              <div className="team-image">
                 <img src="../images/kfinal2.png" alt="Team Member" />
               </div>
               <div className="team-info">
