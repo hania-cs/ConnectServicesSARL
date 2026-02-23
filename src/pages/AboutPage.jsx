@@ -214,7 +214,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <img src="../images/sl.png" alt="Team Member" />
               </div>
               <div className="team-info">
-                <h3>Sleiman Kasem Mhanna</h3>
+                <h3>Slaimen Kassem Mhanna</h3>
                 <p className="team-role">CEO</p>
                 <p className="team-bio">
                   He defines the company’s strategic direction and oversees operations, growth, and performance. With a strong background in business leadership and execution, he drives innovation, builds high-performing teams, and ensures the organization delivers measurable results with consistency and integrity.
@@ -321,7 +321,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
                 <h3>Dolly Hammouda</h3>
                 <p className="team-role">Ma Tensa Transaction Officer</p>
                 <p className="team-bio">
-                  He ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
+                  She ensures accurate and compliant financial operations, combining practical experience with strong problem-solving skills to maintain high standards and support organizational success.
                 </p>
               </div>
             </div>
