@@ -211,7 +211,7 @@ of expert consultants and service providers, ensuring efficiency, compliance, an
           <div className="team-grid">
                <div className="team-card">
               <div className="team-image">
-                <img src="../images/Slei.png" alt="Team Member" />
+                <img src="../images/sl.png" alt="Team Member" />
               </div>
               <div className="team-info">
                 <h3>Sleiman Kasem Mhanna</h3>
