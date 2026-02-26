@@ -46,11 +46,12 @@ function Partners() {
   const logos = [
     'fid.png',
     'matensa2.png',
-    'next.png',
     'securite.png',
     'sira.png',
     'vertexa.png',
-    'kaber.png'
+    'kaber.png',
+    'black.png',
+    'allo.png',
   ]
 
   return (

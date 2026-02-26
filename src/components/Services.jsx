@@ -38,7 +38,7 @@ function Services() {
               <div className="service-icon">💸</div>
             </div>
             <h3>Money Transfer</h3>
-            <p>Fast, secure international transfers with competitive rates. Powered by MaTensa Co.</p>
+            <p>Fast, secure international transfers with competitive rates. Powered by MaTensa SAL.</p>
             <a href="/services" className="service-link">Learn more →</a>
           </div>
 
